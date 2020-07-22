@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" />
+  <title>Olive's Website</title>
+  <!-- Favicon -->
+  <link rel="icon" href="img/dog.png.ico">
+
+  <!-- Googlefonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:black|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+  <!-- CSS stlyesheets -->
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+
+
+  <!-- Bootstrap Scripts -->
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+
+
+
+
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+
+
+  <!-- nav bar -->
+  <header>
+  <section id="olivenav">
+    <div>
+      <nav class="navbar navbar-light">
+        <h1 class="headline fontchoicetextheader olivewebsiteheader">My Favorite Foods!</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link fontchoicetextheader" href="index.html">About Me!</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link fontchoicetextheader" href="My Favorite Foods.html">My Favorite Foods!<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link fontchoicetextheader" href="My Favorite Toys.html">My Favorite Toys!</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link fontchoicetextheader" href="My Favorite Nap Places.html">My Favorite Napping Places!</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </section>
+</header>
+  <section id="platebackground">
+    <h1 class="foodheader">Hover over the images to find out more about my favorite foods!</h1>
+    <img class="plate" src="img/plate2.jpg">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade aboveplateimage heightpic carouselpadding" data-ride="carousel" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img/chicken.jpg" class="imagerounded" alt="Chicken">
+              </div>
+              <div class="flip-card-back imagerounded">
+                <h1 class="headerfooditems">Chicken!</h1>
+                <p class="fooddesc">I love chicken so much! I get a little in my
+                bowl every night for my dinner. Mmmm...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img/edible-cookie-dough-55.jpg" class="imagerounded" alt="Cookie Dough">
+              </div>
+              <div class="flip-card-back imagerounded">
+                <h1 class="headerfooditems">Cookie Dough!</h1>
+                <p class="fooddesc">Cookie dough is so delicious! I<br> always beg
+                for some. I never<br> get any chocolate chips<br> though. :(</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img/carrots.jpg" class="imagerounded" alt="Carrots">
+              </div>
+              <div class="flip-card-back imagerounded">
+                <h1 class="headerfooditems">Carrots!</h1>
+                <p class="fooddesc"> Carrots are the best! They're so delicious and crunchy.
+                I could<br> eat them all day!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a id="leftarrow" class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a id="rightarrow" class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </section>
+  <footer class="buttonscenter" id="footer">
+  <div>
+    <a href="https://twitter.com/home?lang=en" target=_blank><i class="fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/" class="links-spacing" target=_blank><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/" target=_blank><i class="fab fa-instagram"></i></a>
+    <a href="mailto:eesch001@ucr.edu" class="links-spacing" target=_blank><i class="fas fa-envelope"></i></a>
+
+    <p class="copyright-padding fontchoicetext">Helpful links</p>
+  </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
